@@ -56,7 +56,7 @@ int main(int argc, char const *argv[]) {
         printHeader();
         printf("\tINSERT VALUE: ");
         scanf("%d", &aux_item);
-        getchar();
+        getchar();  
         push(data, aux_item);
         break;
       case remove_item:

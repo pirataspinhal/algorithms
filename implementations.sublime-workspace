@@ -1,0 +1,712 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"def",
+				"def	#ifndef … #define … #endif"
+			],
+			[
+				"sta",
+				"stack_size"
+			],
+			[
+				"aux",
+				"aux_item"
+			],
+			[
+				"print",
+				"printWebsite"
+			],
+			[
+				"insert",
+				"insertWebsite"
+			],
+			[
+				"new",
+				"newRank"
+			],
+			[
+				"ke",
+				"keywords"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"total",
+				"totalBytes"
+			],
+			[
+				"tota",
+				"totalBytes"
+			],
+			[
+				"keyword",
+				"keywordsList"
+			],
+			[
+				"keyw",
+				"keywordsList"
+			],
+			[
+				"key",
+				"keywordsList"
+			],
+			[
+				"token",
+				"tokenCounter"
+			],
+			[
+				"str",
+				"strtok"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"compare",
+				"compareGold"
+			],
+			[
+				"sort",
+				"sortingCriteria"
+			],
+			[
+				"totalC",
+				"totalCountries"
+			],
+			[
+				"count",
+				"countries"
+			],
+			[
+				"sear",
+				"searchResult"
+			],
+			[
+				"search",
+				"searchKey"
+			],
+			[
+				"coun",
+				"countries"
+			],
+			[
+				"medal",
+				"medalBoard"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sorting/merge_sort/mergesort.c",
+			"settings":
+			{
+				"buffer_size": 1474,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sorting/merge_sort/mergesort.h",
+			"settings":
+			{
+				"buffer_size": 136,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "destroy",
+		"selected_items":
+		[
+			[
+				"destroy",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"right",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"set syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"makefile",
+				"Set Syntax: Makefile"
+			],
+			[
+				"origami righ",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"block",
+				"Toggle Block Comment"
+			],
+			[
+				"cobalt",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"origami right",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"dec",
+				"ASCII Decorator: Default Font"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"origami",
+				"Origami: Create Pane Below"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"note",
+				"Set Syntax: Note"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 374.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/crochi/Dropbox/codes/alg1/implementacoes",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/binary_tree",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/linear_list",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort"
+	],
+	"file_history":
+	[
+		"/home/crochi/Dropbox/codes/icc2/aulas/aula06_mergesort_fncomp/mergesort.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/linear_list/listadinamica.h",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/stack_queue/includes/stack.h",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/stack_queue/src/main.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/stack_queue/src/stack.c",
+		"/home/crochi/Dropbox/codes/TEMPLATE.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/stack_queue/includes/menu.h",
+		"/home/crochi/Dropbox/codes/icc2/trabalho04/main.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/src/google.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/src/minigoogle.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/debug/lista_teste.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/insert_sort",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/includes/google.h",
+		"/home/crochi/Dropbox/codes/alg1/backup_minigoogle/projeto01-mini-google/src/google.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/debug/input_test.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/Makefile",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/build/googlebot.csv",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/src/input.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/googlebot.csv",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/src/menu.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/includes/input.h",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/includes/website.h",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/includes/globals.h",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/includes/menu.h",
+		"/tmp/Transito.cpp",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/debug/menu",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/posfixa/src/posfixa.c",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/calculadora/src/main.c",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/posfixa/src/main.c",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/posfixa/src/pilha-estatica.c",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/posfixa/Makefile",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/calculadora/Makefile",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/posfixa/includes/posfixa.h",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/Makefile_calculadora",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/pilha-estatica.c",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/calculadora.c",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/calculadora.h",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/debug/debug.c",
+		"/home/crochi/Dropbox/codes/alg1/ex04 - TAD Pilha/main_calculadora.c",
+		"/home/crochi/Dropbox/codes/readString.c",
+		"/home/crochi/Dropbox/codes/alg1/projeto01-mini-google/debug/menu_test.c",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/lista_teste.c",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/src/google.c",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/src/minigoogle.c",
+		"/home/crochi/Dropbox/compsci/SCC0202 Algoritmos 1/codigos - lista duplamente encadeada/listadinamica.c",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/includes/website.h",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/includes/globals.h",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/includes/google.h",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/input_test.c",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/includes/input.h",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/src/input.c",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/googlebot.csv",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/input.c",
+		"/home/crochi/Dropbox/Codes/study/ncurses_programs/basics/hello_world.c",
+		"/home/crochi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/crochi/Dropbox/Codes/alg1/study/p1.c",
+		"/home/crochi/Dropbox/Codes/icc2/trabalho03/banco.c",
+		"/home/crochi/Dropbox/Codes/alg1/lista_encadeada/lista_estudo/estudo.c",
+		"/home/crochi/Dropbox/Codes/alg1/lista_encadeada/listadinamica.c",
+		"/home/crochi/Dropbox/Codes/alg1/lista_encadeada/listadinamica.h",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/build/googlebot.csv",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/build/listofdirectories.txt",
+		"/home/crochi/Dropbox/Codes/alg1/projeto01-mini-google/README.md",
+		"/home/crochi/Dropbox/Preferences.sublime-settings",
+		"/home/crochi/Dropbox/Codes/icc2/trabalho02/medal2.c",
+		"/home/crochi/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/crochi/Dropbox/Codes/icc2/trabalho02/salsicha.c",
+		"/home/crochi/Dropbox/Codes/icc2/trabalho02/medals.board",
+		"/home/crochi/Dropbox/Codes/icc2/trabalho02/medal.c",
+		"/home/crochi/Dropbox/Codes/alg1/ex02 - Busca Binária/ex02.c",
+		"/home/crochi/Dropbox/Codes/icc2/trabalho02/teste.c"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"intercala",
+			"ini",
+			"fim",
+			"TAM",
+			"free",
+			"insertWebsite",
+			"related",
+			"saindo",
+			"print",
+			"List",
+			"printl",
+			"errorcheck",
+			"boolean",
+			"shutdown",
+			"insert keyword",
+			"newWebsite",
+			"readString",
+			"// ",
+			"//",
+			"readString",
+			"lerEntrada",
+			"tam",
+			"readString",
+			"close",
+			"refresh",
+			"data",
+			"aux->name",
+			"data",
+			"i",
+			"data",
+			"site",
+			"site-",
+			".",
+			"list",
+			"newWebsite",
+			"int counter",
+			"readString",
+			"counter",
+			"current",
+			"database",
+			"data",
+			"DATA",
+			"database",
+			"data",
+			"database",
+			"newWebsite",
+			"web1",
+			"next",
+			"keylist->total",
+			"printf",
+			"readString",
+			"printf",
+			"database",
+			"database->",
+			"database",
+			"sentinel",
+			"totalbytes",
+			"bytePosition",
+			"bytePosition ",
+			"@",
+			"bytePosition = ftell(googlebot);\n		printf(\"byte position is %ld\\n\", bytePosition);",
+			"keywordsList",
+			"keywords",
+			"newW",
+			"FALSE",
+			"TRUE",
+			"uol.com",
+			"uol",
+			";",
+			"new_str",
+			";",
+			"(*cmp)",
+			"cmp",
+			" (*",
+			"(*cmp)",
+			"cmp",
+			"1",
+			"tabela",
+			"int compare",
+			"return -1",
+			"return 1",
+			"prata",
+			"ouro",
+			"b",
+			"atual",
+			"bronze",
+			"nome_pais",
+			"prata",
+			"ouro",
+			"b",
+			"atual",
+			"bronze",
+			"atual",
+			"nome_pais",
+			"ouro",
+			"prata",
+			"b",
+			"bronze",
+			"Bronze",
+			"bronze",
+			"atual.prata",
+			"prata",
+			"comparedronze",
+			"prata",
+			"b",
+			"ouro",
+			"atual",
+			"medalBoard.countries",
+			"list",
+			"medalBoard.total",
+			"total",
+			"Board.",
+			"temporary",
+			"medalBoard",
+			"readBoard",
+			"..",
+			"medalBoard.countries[i]",
+			"printCountry",
+			"\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" \n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sorting/merge_sort/mergesort.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								10,
+								6,
+								18,
+								27,
+								20,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sorting/merge_sort/mergesort.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								10,
+								6,
+								18,
+								28,
+								29,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.jotter":
+	{
+		"height": 138.0
+	},
+	"pinned_build_system": "",
+	"project": "implementations.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
