@@ -6,7 +6,12 @@ Implementation of the data structures studied in the "Algorithms and Data Struct
 
 ## Implementations so far:
   
-  Data Structures:
+  @ Data Structures:
     1: Circular Linked List (Dynamic Memory)
+    2: Stack
+  @ Sorting:
+  	1: MergeSort
+  @ Searching:
+  	1: Binary Search
 
 ### USP - Scientia Vinces <3 
