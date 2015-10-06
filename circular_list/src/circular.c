@@ -1,3 +1,17 @@
+/*-------------------------------------------------------
+	ICMC - University of Sao Paulo
+	 __  __  ____    ____    
+	/\ \/\ \/\  _`\ /\  _`\  
+	\ \ \ \ \ \,\L\_\ \ \L\ \
+	 \ \ \ \ \/_\__ \\ \ ,__/
+	  \ \ \_\ \/\ \L\ \ \ \/ 
+	   \ \_____\ `\____\ \_\ 
+	    \/_____/\/_____/\/_/ 
+	                         
+	LINKED CIRCULAR LIST
+	(c) Felipe Scrochio Custódio
+---------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "circular.h"
@@ -19,8 +33,8 @@
 			
 ---------------------------------------------------------*/
 
-void createList(LIST **database)
-{
+void createList(LIST **database) {
+
 	(*database) = (LIST*)malloc(sizeof(LIST));
 
 	if (database != NULL) {
@@ -105,8 +119,7 @@ boolean insertNode(LIST *data, NODE* node) {
 			
 ---------------------------------------------------------*/
 
-boolean removeNode(LIST **data, NODE *removal)
-{
+boolean removeNode(LIST **data, NODE *removal) {
 
 	if (removal != NULL) { 
 		NODE *aux = removal;
@@ -114,11 +127,8 @@ boolean removeNode(LIST **data, NODE *removal)
 		removal->next->previous = removal->previous;	
 		free(removal);
 		return true;
-
 	} else {
-
 		return false;
-
 	}
 }
 
