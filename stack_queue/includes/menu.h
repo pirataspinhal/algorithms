@@ -15,6 +15,9 @@
 #ifndef __MENU_H__
 #define __MENU_H__
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /*-------------------------------------------------------
 
 	MENU FUNCTIONS
@@ -22,7 +25,7 @@
 ---------------------------------------------------------*/
 
 void printHeader(void) {
-	printf("\tSTACK\n\n");
+	printf("\n\tSTACK\n\n");
 }
 
 void printMenu(void) {

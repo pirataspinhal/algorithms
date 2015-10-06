@@ -18,17 +18,6 @@
 
 /*-------------------------------------------------------
 
-  DEFINITIONS
-
----------------------------------------------------------*/
-
-struct stack {
-    ITEM value[SIZE];
-    int top;
-} STACK;
-
-/*-------------------------------------------------------
-
   STACK FUNCTIONS
 
 ---------------------------------------------------------*/
@@ -48,7 +37,7 @@ STACK *createStack(void) {
 }
 
  int full(STACK *stack) {
-   return (stack->top == TAM-1);
+   return (stack->top == SIZE-1);
  }
 
  int size(STACK *stack) {

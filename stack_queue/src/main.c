@@ -21,7 +21,7 @@ typedef enum {
 
   insert_item = 1,
   remove_item,
-  display_size,
+  display,
   shutdown,
 
 } MENU;
@@ -42,6 +42,7 @@ int main(int argc, char const *argv[]) {
 
   int aux = 0;
   int value = 0;
+  int stack_size = 0;
 
   do {
 
@@ -53,21 +54,25 @@ int main(int argc, char const *argv[]) {
     switch(operation) {
       case insert_item:
         printHeader();
-        newNode(&data);
+        printf("\tINSERT VALUE: ");
+        scanf("%d", &aux_item);
+        getchar();
+        push(data, aux_item);
         break;
       case remove_item:
         printHeader();
-        printf("\tINSERT VALUE TO BE REMOVED: ");
-        scanf("%d", &value);
-        pop(&data, aux_item);
+        printf("\tREMOVE TOP VALUE\n");
+        aux_item = pop(data);
+        printf("\tVALUE REMOVED: %d\n", aux_item);
         break;
       case display:
         printHeader();
-        printList(data);
+        stack_size = size(data);
+        printf("\tSTACK SIZE IS %d\n", stack_size);
         break;
       case shutdown:
         printHeader();
-        destroyList(data);
+        printf("\tEXIT\n");
         break;
     }
 
@@ -78,10 +83,4 @@ int main(int argc, char const *argv[]) {
   } while (operation != shutdown);
  
   return 0;
-}
-
-int main(int argc, char const *argv[]) {
-  
-  return 0;
-
 }
