@@ -64,3 +64,17 @@ ITEM removeItem(QUEUE *queue) {
 int size(QUEUE *queue) {
 	return (queue->size);
 }
+
+void printQueue(QUEUE *queue) {
+	int i;
+	printf("\n\t");
+	for (i = 0; i < queue->size - 1; i++) {
+		printf("%d -> ", queue->vector[i].content);
+	}
+	printf("%d\n", queue->vector[i].content);
+}
+
+void destroyQueue(QUEUE *queue) {
+	free(queue->vector);
+	free(queue);
+}

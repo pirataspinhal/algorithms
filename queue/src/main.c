@@ -71,13 +71,13 @@ int main(int argc, char const *argv[]) {
 			case display:
 				printHeader();
 				printf("\tQUEUE:\n");
-				//printQueue(data);
+				printQueue(data);
 				break;
 			case shutdown:
 				printHeader();
 				printf("\tDESTROYING...\n");
 				exit(0);
-				//destroyList(data);
+				destroyList(data);
 				break;
 		}
 
