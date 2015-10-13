@@ -23,3 +23,5 @@ int empty(QUEUE *queue);
 int insertItem(QUEUE *queue, ITEM new);
 ITEM removeItem(QUEUE *queue);
 int size(QUEUE *queue);
+void printQueue(QUEUE *queue);
+void destroyQueue(QUEUE *queue);
