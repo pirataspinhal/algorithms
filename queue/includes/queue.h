@@ -15,8 +15,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct item ITEM;
-typedef struct queue QUEUE;
+typedef struct item {
+
+	int content;
+
+} ITEM;
+
+typedef struct queue {
+	
+	ITEM *vector;
+	int begin;
+	int end;
+	int size;
+
+} QUEUE;
 
 QUEUE *createQueue();
 int empty(QUEUE *queue);

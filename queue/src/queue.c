@@ -16,22 +16,6 @@
 #include <stdlib.h>
 #include "queue.h"
 
-typedef struct item {
-
-	int content;
-
-} ITEM;
-
-
-typedef struct queue {
-	
-	ITEM *vector;
-	int begin;
-	int end;
-	int size;
-
-} QUEUE;
-
 QUEUE *createQueue() {
 
 	QUEUE *queue = (QUEUE*)malloc(sizeof(QUEUE));
@@ -74,16 +58,9 @@ ITEM removeItem(QUEUE *queue) {
 		queue->begin = (queue->begin) + 1;
 		queue->size--;
 		return rm;
-	} else {
-		return (NULL);
-	}
+	} 
 }
 
 int size(QUEUE *queue) {
 	return (queue->size);
-}
-
-int main(int argc, char const *argv[]) {
-	
-	return 0;
 }

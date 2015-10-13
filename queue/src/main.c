@@ -21,7 +21,7 @@ typedef enum {
 
 	insert_item = 1,
 	remove_item,
-	size,
+	print_size,
 	display,
 	shutdown,
 
@@ -39,8 +39,8 @@ int main(int argc, char const *argv[]) {
 	MENU operation;
 	QUEUE *data = NULL;
 	data = createQueue();
-	ITEM *aux_item = NULL;
-	aux_item = (ITEM*)malloc(sizeof(ITEM));
+	ITEM aux_item;
+	aux_item.content = 0;
 	int aux = 0;
 	int value = 0;
 
@@ -54,7 +54,7 @@ int main(int argc, char const *argv[]) {
 			case insert_item:
 				printHeader();
 				printf("\tINSERT NEW ITEM VALUE: ");
-				scanf("%d", &aux_item->content);
+				scanf("%d", &aux_item.content);
 				getchar();
 				insertItem(data, aux_item);
 				break;
@@ -62,23 +62,26 @@ int main(int argc, char const *argv[]) {
 				printHeader();
 				printf("\tREMOVING ITEM\n");
 				aux_item = removeItem(data);
-				printf("\tREMOVED %d\n", aux_item->content);
+				printf("\tREMOVED %d\n", aux_item.content);
 				break;
-			case size:
+			case print_size:
 				printHeader();
 				printf("\tQUEUE SIZE IS: %d\n", size(data));
 				break;
 			case display:
 				printHeader();
-				printQueue(data);
+				printf("\tQUEUE:\n");
+				//printQueue(data);
 				break;
 			case shutdown:
 				printHeader();
-				destroyList(data);
+				printf("\tDESTROYING...\n");
+				exit(0);
+				//destroyList(data);
 				break;
 		}
 
-		printf("\tPRESS ANY KEY ");
+		printf("\n\tPRESS ANY KEY ");
 		getchar();
 		system("clear");
 

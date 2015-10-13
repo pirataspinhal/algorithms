@@ -103,6 +103,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "queue/src/queue.c",
+			"settings":
+			{
+				"buffer_size": 1479,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "queue/src/main.c",
+			"settings":
+			{
+				"buffer_size": 520,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -111,10 +127,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 150.0,
-		"last_filter": "destroy",
+		"height": 375.0,
+		"last_filter": "set syntax c",
 		"selected_items":
 		[
+			[
+				"set syntax c",
+				"Set Syntax: C"
+			],
 			[
 				"destroy",
 				"Origami: Destroy Current Pane"
@@ -126,10 +146,6 @@
 			[
 				"comment",
 				"Toggle Comment"
-			],
-			[
-				"set syntax c",
-				"Set Syntax: C"
 			],
 			[
 				"makefile",
@@ -192,7 +208,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 374.0
+		"width": 320.0
 	},
 	"console":
 	{
@@ -214,14 +230,15 @@
 	"expanded_folders":
 	[
 		"/home/crochi/Dropbox/codes/alg1/implementacoes",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/binary_tree",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/search",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/includes",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/src",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort"
 	],
 	"file_history":
 	[
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/includes/queue.h",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/README.md",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/README.md",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/binary.c",
@@ -319,6 +336,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"remove",
 			"intercala",
 			"ini",
 			"fim",
@@ -456,8 +474,162 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "queue/src/queue.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								10,
+								13,
+								10,
+								4,
+								43,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "queue/src/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								10,
+								13,
+								10,
+								7,
+								31,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

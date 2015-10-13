@@ -22,7 +22,7 @@
 ---------------------------------------------------------*/
 
 void printHeader(void) {
-	printf("\tQUEUE\n\n");
+	printf("\n\tQUEUE\n");
 }
 
 void printMenu(void) {
