@@ -14,12 +14,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "queue.h"
 
-typedef struct item ITEM;
-typedef struct queue QUEUE;
-
-QUEUE *createQueue();
-int empty(QUEUE *queue);
-int insertItem(QUEUE *queue, ITEM new);
-ITEM removeItem(QUEUE *queue);
-int size(QUEUE *queue);
+int main(int argc, char const *argv[]) {
+	
+	return 0;
+}
