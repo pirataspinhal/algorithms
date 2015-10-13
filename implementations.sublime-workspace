@@ -103,22 +103,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sorting/merge_sort/mergesort.c",
-			"settings":
-			{
-				"buffer_size": 1474,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sorting/merge_sort/mergesort.h",
-			"settings":
-			{
-				"buffer_size": 136,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -231,12 +215,22 @@
 	[
 		"/home/crochi/Dropbox/codes/alg1/implementacoes",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/binary_tree",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/linear_list",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/search",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort"
 	],
 	"file_history":
 	[
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/README.md",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/README.md",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/binary.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/binary.h",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/main.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/README.md",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort/mergesort.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort/main.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort/mergesort.h",
 		"/home/crochi/Dropbox/codes/icc2/aulas/aula06_mergesort_fncomp/mergesort.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/linear_list/listadinamica.h",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/stack_queue/includes/stack.h",
@@ -462,160 +456,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sorting/merge_sort/mergesort.c",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1474,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								229,
-								229
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								223,
-								10,
-								6,
-								18,
-								27,
-								20,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/C++/C.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sorting/merge_sort/mergesort.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								129
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								223,
-								10,
-								6,
-								18,
-								28,
-								29,
-								0,
-								0,
-								0,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
