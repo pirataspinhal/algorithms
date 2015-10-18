@@ -123,7 +123,7 @@
 			"file": "queue/src/main.c",
 			"settings":
 			{
-				"buffer_size": 1750,
+				"buffer_size": 1746,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,7 +131,7 @@
 			"file": "queue/src/queue.c",
 			"settings":
 			{
-				"buffer_size": 1264,
+				"buffer_size": 1530,
 				"line_ending": "Unix"
 			}
 		}
@@ -575,7 +575,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -663,15 +663,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1750,
+						"buffer_size": 1746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1549,
-								1549
+								0,
+								0
 							]
 						],
 						"settings":
@@ -739,15 +739,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1264,
+						"buffer_size": 1530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1264,
-								1264
+								0,
+								0
 							]
 						],
 						"settings":
