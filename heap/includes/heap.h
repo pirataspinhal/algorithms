@@ -32,7 +32,36 @@ typedef struct heap {
 
 } HEAP;
 
+/*-------------------------------------------------------
+	HEAP FUNCTIONS
+---------------------------------------------------------*/
+
 HEAP* createHeap();
 NODE* createRoot(HEAP* tree, int content);
 NODE* insertChild(int child, NODE *node, int content);
 
+/*-------------------------------------------------------
+	HEAP TRAVERSING FUNCTIONS
+---------------------------------------------------------*/
+
+// Basic heap movements
+void __pre_order(NODE *root);
+void pre_order(HEAP* tree);
+
+void __in_order(NODE *root);
+void in_order(HEAP *tree);
+
+void __post_order(NODE *root);
+void post_order(HEAP *tree);
+
+/*-------------------------------------------------------
+	AUXILIAR FUNCTIONS
+---------------------------------------------------------*/
+
+void printNode(NODE *node);
+
+void __delete_tree(NODE *root);
+void delete_tree(HEAP **tree);
+
+int __height(NODE *node);
+int height(HEAP *tree);

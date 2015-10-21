@@ -62,3 +62,81 @@ NODE* insertChild(int child, NODE *node, int content) {
 	return new;
 
 }
+
+/*-------------------------------------------------------
+	HEAP TRAVERSING FUNCTIONS
+---------------------------------------------------------*/
+
+void __pre_order(NODE *root) {
+
+	if(root != NULL) {
+		printNode(root);
+		__pre_order(root->left);
+		__pre_order(root->right);
+	}
+}
+
+void pre_order(HEAP* tree) {
+
+	__pre_order(tree->root);
+
+}
+
+void __in_order(NODE *root) {
+
+	if(root != NULL) {
+		__in_order(root->left);
+		printNode(root);
+		__in_order(root->right);
+	}
+}
+
+void in_order(HEAP *tree) {
+	__in_order(tree->root);
+}
+
+void __post_order(NODE *root) {
+	if(root != NULL) {
+		__post_order(root->left);
+		__post_order(root->right);
+		printNode(root);
+	}
+}
+
+void post_order(HEAP *tree) {
+	__post_order(tree->root);
+}
+
+/*-------------------------------------------------------
+	AUXILIAR FUNCTIONS
+---------------------------------------------------------*/
+
+void printNode(NODE *node) {
+	printf("\t[ %d ]\n", node->value);
+}
+
+void __delete_tree(NODE *root) {
+	if(root != NULL) {
+		__delete_tree(root->left);
+		__delete_tree(root->right);
+		// erase content
+		free(root);
+	}
+}
+
+void delete_tree(HEAP **tree) {
+	__delete_tree((*tree)->root);
+	free(*tree);
+	*tree = NULL;
+}
+
+int __height(NODE *node) {
+	if (node == NULL) return -1;
+	int left = __height(node->left);
+	int right = __height(node->right);
+	return ((left > right) ? left : right) + 1;
+}
+
+int height(HEAP *tree) {
+	return __height(tree->root);
+}
