@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"left",
+				"left_child"
+			],
+			[
 				"def",
 				"def	#ifndef … #define … #endif"
 			],
@@ -104,10 +108,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/crochi/Dropbox/codes/icc2/aulas/aula16_heapsort_biblio/icc2.c",
+			"file": "sorting/merge_sort/main.c",
 			"settings":
 			{
-				"buffer_size": 5394,
+				"buffer_size": 599,
 				"line_ending": "Unix"
 			}
 		}
@@ -119,13 +123,25 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "set syntax c",
+		"height": 173.0,
+		"last_filter": "destroy",
 		"selected_items":
 		[
 			[
+				"destroy",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"right",
+				"Origami: Create Pane on the Right"
+			],
+			[
 				"set syntax c",
 				"Set Syntax: C"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
 			],
 			[
 				"block",
@@ -146,14 +162,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"destroy",
-				"Origami: Destroy Current Pane"
-			],
-			[
-				"right",
-				"Origami: Create Pane on the Right"
 			],
 			[
 				"comment",
@@ -208,7 +216,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 453.0
+		"width": 275.0
 	},
 	"console":
 	{
@@ -229,10 +237,23 @@
 	},
 	"expanded_folders":
 	[
-		"/home/crochi/Dropbox/codes/alg1/implementacoes"
+		"/home/crochi/Dropbox/codes/alg1/implementacoes",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/includes",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/src",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/src",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort"
 	],
 	"file_history":
 	[
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/src/main.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/includes/heap.h",
+		"/home/crochi/Dropbox/codes/icc2/aulas/aula16_heapsort_biblio/icc2.c",
+		"/home/crochi/Dropbox/codes/icc2/aulas/aula16_heapsort_biblio/testheapsort.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/Makefile",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/src/heap.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/includes/menu.h",
+		"/home/crochi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/crochi/Dropbox/codes/icc2/aulas/aula16_heapsort_biblio/testbuildheap.c",
 		"/home/crochi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/includes/menu.h",
@@ -481,28 +502,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/crochi/Dropbox/codes/icc2/aulas/aula16_heapsort_biblio/icc2.c",
+					"file": "sorting/merge_sort/main.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5394,
+						"buffer_size": 599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								310,
+								310
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1197.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

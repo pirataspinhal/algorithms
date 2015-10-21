@@ -11,6 +11,7 @@ SRC = src/heap.c src/main.c
 INCLUDES = ./includes
 
 # >> OPTIONS
+
 # LIBRARIES
 LIBS = -lm
 #FLAGS

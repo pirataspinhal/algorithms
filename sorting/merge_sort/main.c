@@ -16,14 +16,11 @@
 #include <stdio.h>
 #include "mergesort.h"
 
+
 int main(int argc, char const *argv[]) {
   
+  // TODO: Gerar vetor aleatório
   int *v = NULL;
-  int i;
-  v = (int*)malloc(sizeof(int) * 100);
-  for (i = 0; i < 100; i++) {
-    v[i] = i;
-  }
 
   return 0;
 }

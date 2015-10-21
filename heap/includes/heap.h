@@ -38,7 +38,7 @@ typedef struct heap {
 
 HEAP* createHeap();
 NODE* createRoot(HEAP* tree, int content);
-NODE* insertChild(int child, NODE *node, int content);
+NODE* insertChild(int child, NODE *node, int content); // int child: left_child or right_child
 
 /*-------------------------------------------------------
 	HEAP TRAVERSING FUNCTIONS
