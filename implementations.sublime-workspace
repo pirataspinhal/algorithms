@@ -111,7 +111,15 @@
 			"file": "sorting/merge_sort/main.c",
 			"settings":
 			{
-				"buffer_size": 599,
+				"buffer_size": 602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sorting/merge_sort/mergesort.c",
+			"settings":
+			{
+				"buffer_size": 1458,
 				"line_ending": "Unix"
 			}
 		}
@@ -238,10 +246,8 @@
 	"expanded_folders":
 	[
 		"/home/crochi/Dropbox/codes/alg1/implementacoes",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/includes",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/src",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/src",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/bubble_sort",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort"
 	],
 	"file_history":
@@ -506,15 +512,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 599,
+						"buffer_size": 602,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								310,
-								310
+								223,
+								223
 							]
 						],
 						"settings":
@@ -528,6 +534,35 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sorting/merge_sort/mergesort.c",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

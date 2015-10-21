@@ -8,19 +8,15 @@ Implementation of the data structures studied in the "Algorithms and Data Struct
   
 ### Data Structures:
 
-	1: Circular List
+	1: Circular Linked List (Dynamic Memory)
     2: Stack
-  	3: Linear List
+  	3: Linear Linked List
   	4: Queue
-  	5: Heap
+  	5: Binary Tree
 
 ### Sorting:
 
-  	1: Mergesort
-    2: Quicksort
-    3: Heapsort
-    4: Counting Sort
-    5: Bubblesort
+  	1: MergeSort
 
 ### Searching:
 
