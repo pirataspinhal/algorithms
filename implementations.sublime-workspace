@@ -107,22 +107,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sorting/merge_sort/main.c",
-			"settings":
-			{
-				"buffer_size": 602,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sorting/merge_sort/mergesort.c",
-			"settings":
-			{
-				"buffer_size": 1458,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -131,17 +115,37 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 173.0,
-		"last_filter": "destroy",
+		"height": 375.0,
+		"last_filter": "package",
 		"selected_items":
 		[
 			[
-				"destroy",
-				"Origami: Destroy Current Pane"
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
 			],
 			[
 				"right",
 				"Origami: Create Pane on the Right"
+			],
+			[
+				"destroy",
+				"Origami: Destroy Current Pane"
 			],
 			[
 				"set syntax c",
@@ -166,10 +170,6 @@
 			[
 				"comm",
 				"Toggle Comment"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"comment",
@@ -224,7 +224,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 275.0
+		"width": 402.0
 	},
 	"console":
 	{
@@ -245,13 +245,15 @@
 	},
 	"expanded_folders":
 	[
-		"/home/crochi/Dropbox/codes/alg1/implementacoes",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/bubble_sort",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort"
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/circular_list",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/heap"
 	],
 	"file_history":
 	[
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/quicksort/includes/quick.h",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/README.md",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort/main.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/src/main.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/heap/includes/heap.h",
 		"/home/crochi/Dropbox/codes/icc2/aulas/aula16_heapsort_biblio/icc2.c",
@@ -266,14 +268,12 @@
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/src/queue.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/src/main.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/includes/queue.h",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/README.md",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/README.md",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/binary.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/binary.h",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/main.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/README.md",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort/mergesort.c",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort/main.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort/mergesort.h",
 		"/home/crochi/Dropbox/codes/icc2/aulas/aula06_mergesort_fncomp/mergesort.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/linear_list/listadinamica.h",
@@ -348,7 +348,7 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -503,74 +503,19 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sorting/merge_sort/main.c",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								223,
-								223
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sorting/merge_sort/mergesort.c",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -585,11 +530,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -615,7 +567,7 @@
 	"project": "implementations.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
