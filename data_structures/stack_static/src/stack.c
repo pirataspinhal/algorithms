@@ -22,6 +22,11 @@
 
 ---------------------------------------------------------*/
 
+/*-------------------------------------------------------
+  createStack: 
+    allocates a stack in heap memory
+-------------------------------------------------------*/
+
 STACK *createStack(void) {
 
     STACK *stack = (STACK *)malloc(sizeof(STACK));
@@ -32,17 +37,37 @@ STACK *createStack(void) {
     return (stack);
 }
 
+/*-------------------------------------------------------
+  empty: 
+    checks if a stack is empty
+-------------------------------------------------------*/
+
  int empty(STACK *stack) {
    return (stack->top == -1);
 }
+
+/*-------------------------------------------------------
+  full: 
+    checks if a stack is full (static)
+-------------------------------------------------------*/
 
  int full(STACK *stack) {
    return (stack->top == SIZE-1);
  }
 
+ /*-------------------------------------------------------
+  size: 
+    returns the size of a stack
+-------------------------------------------------------*/
+
  int size(STACK *stack) {
    return (stack->top+1);
 }
+
+/*-------------------------------------------------------
+  top: 
+    returns the item at the top, without removing it
+-------------------------------------------------------*/
 
 int top(STACK *stack) {
 	
@@ -52,6 +77,12 @@ int top(STACK *stack) {
   return (0);
 
 }
+
+/*-------------------------------------------------------
+  push:
+    inserts a new item at the top
+    of the stack
+-------------------------------------------------------*/
 
 int push(STACK *stack, ITEM item) {
     if (!full(stack)) {
@@ -63,6 +94,12 @@ int push(STACK *stack, ITEM item) {
     return (0);
 
 }
+
+/*-------------------------------------------------------
+  pop:
+    removes and returns the top item
+    of the stack
+-------------------------------------------------------*/
 
  ITEM pop(STACK *stack) {
    if (!empty(stack)) {

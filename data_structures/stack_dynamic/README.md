@@ -5,8 +5,7 @@ Insertions and remotions take place at the same extreme of the list, called 'top
 
 # How does it work?
 
-This is a static implementation of a stack. Which means the stack is 
-made out of a vector with a max size and a counter, which keeps track 
-of the stack size. 
+This is a dynamic implementation of a stack.
+Each item is a node, that contains a pointer to its previous node.
 
 Enjoy!

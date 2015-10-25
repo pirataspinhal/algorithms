@@ -32,6 +32,12 @@ typedef struct stack {
     int top;
 } STACK;
 
+/*-------------------------------------------------------
+
+  STACK FUNCTIONS
+
+---------------------------------------------------------*/
+
 STACK *createStack(void);
 int empty(STACK *stack);
 int full(STACK *stack);
