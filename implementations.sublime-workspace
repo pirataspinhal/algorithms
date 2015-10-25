@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"if",
+				"if	If Condition"
+			],
+			[
 				"left",
 				"left_child"
 			],
@@ -68,10 +72,6 @@
 				"strtok"
 			],
 			[
-				"if",
-				"ifmain	if __name__ == '__main__'"
-			],
-			[
 				"compare",
 				"compareGold"
 			],
@@ -115,17 +115,37 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "package",
+		"height": 58.0,
+		"last_filter": "python",
 		"selected_items":
 		[
 			[
-				"package",
-				"Package Control: Upgrade Package"
+				"python",
+				"Set Syntax: Python"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"destroy",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
 			],
 			[
 				"install ",
@@ -142,10 +162,6 @@
 			[
 				"right",
 				"Origami: Create Pane on the Right"
-			],
-			[
-				"destroy",
-				"Origami: Destroy Current Pane"
 			],
 			[
 				"set syntax c",
@@ -200,10 +216,6 @@
 				"ASCII Decorator: Default Font"
 			],
 			[
-				"python",
-				"Set Syntax: Python"
-			],
-			[
 				"origami",
 				"Origami: Create Pane Below"
 			],
@@ -224,7 +236,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 402.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -246,11 +258,29 @@
 	"expanded_folders":
 	[
 		"/home/crochi/Dropbox/Codes/alg1/implementacoes",
-		"/home/crochi/Dropbox/Codes/alg1/implementacoes/circular_list",
-		"/home/crochi/Dropbox/Codes/alg1/implementacoes/heap"
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/heap/src",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/queue",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/queue/build",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/queue/includes",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/queue/src",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/search",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/sorting",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/stack",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/stack/includes",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/stack/src"
 	],
 	"file_history":
 	[
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/heap/src/heap.c",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/heap/README.md",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/sorting/README.md",
+		"/home/crochi/Dropbox/Codes/study/machine_learning/Getting Started with SFrames.ipynb",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/heap/src/main.c",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/heap/includes/heap.h",
+		"/home/crochi/Dropbox/Codes/alg1/implementacoes/circular_list/src/circular.c",
+		"/home/crochi/Dropbox/Notes/.brain/Inbox.note",
+		"/home/crochi/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/crochi/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/quicksort/includes/quick.h",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/README.md",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/merge_sort/main.c",
@@ -348,7 +378,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -506,16 +536,11 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -530,18 +555,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -567,7 +585,7 @@
 	"project": "implementations.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":

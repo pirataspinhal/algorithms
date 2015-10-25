@@ -1,23 +1,19 @@
-# >> COMPIILER
+#using gcc compiler
 CC = gcc
 
-# >> OUTPUT
-BINARY = ./build/heap
+#output path and filename
+BINARY = ./build/stack
 
-# >> .c SOURCES
-SRC = src/heap.c src/main.c 
+#sources directory
+SRC = src/stack.c src/main.c 
 
-# >> .h INCLUDES
+#includes directory
 INCLUDES = ./includes
 
-# >> OPTIONS
-
-# LIBRARIES
+#libraries and flags
 LIBS = -lm
-#FLAGS
 FLAGS = -g
 
-# >> COMMANDS
 all: compile run
 
 compile:

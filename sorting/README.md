@@ -1,7 +1,9 @@
-# Sorting Functions
+# Sorting Algorithms
 
 ## Implementations
 
-1: Merge Sort
-
-### USP - Scientia Vinces
+1: Bubble Sort
+2: Mergesort
+3: Heapsort
+4: Quicksort
+5: Counting Sort

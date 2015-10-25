@@ -29,7 +29,7 @@
 		PARAMETERS:
 			
 			@LIST **database: 
-				Ponteiro para um LIST* na main.
+				Pointer to a LIST*
 			
 ---------------------------------------------------------*/
 

@@ -22,11 +22,12 @@ int main(int argc, char const *argv[]) {
 	NODE *root = NULL;
 	NODE *aux = NULL;
 
-	printf("\tCREATING HEAP...\n");
+	printf("\tPRESS ANY BUTTON TO CREATE HEAP ");
+	getchar();
 	tree = createHeap();
 	root = createRoot(tree, 0);
-
-	printf("\tFILLING HEAP...\n");
+	printf("\tHEAP CREATED ");
+	getchar();
 
 
 	return 0;

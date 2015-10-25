@@ -8,11 +8,11 @@ Implementation of the data structures studied in the "Algorithms and Data Struct
   
 ### Data Structures:
 
-	1: Circular List
+  	1: Circular List
     2: Stack
-  	3: Linear List
-  	4: Queue
-  	5: Heap
+    3: Linear List
+    4: Queue
+    5: Heap
 
 ### Sorting:
 
@@ -26,4 +26,4 @@ Implementation of the data structures studied in the "Algorithms and Data Struct
 
   	1: Binary Search
 
-### USP - Scientia Vinces <3 
+### USP - Scientia Vinces

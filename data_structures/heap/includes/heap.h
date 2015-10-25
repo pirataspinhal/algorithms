@@ -18,6 +18,9 @@
 #define left_child 0
 #define right_child 1
 
+typedef struct node NODE;
+typedef struct heap HEAP;
+
 typedef struct node {
 
 	int value;

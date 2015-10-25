@@ -2,11 +2,10 @@
 CC = gcc
 
 # >> OUTPUT
-BINARY = ./build/
+BINARY = ./build/counting
 
 # >> .c SOURCES
-SRC = src/ src/
-
+SRC = src/main.c
 # >> .h INCLUDES
 INCLUDES = ./includes
 

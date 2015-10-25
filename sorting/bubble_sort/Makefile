@@ -2,10 +2,10 @@
 CC = gcc
 
 # >> OUTPUT
-BINARY = ./build/
+BINARY = ./build/bubble
 
 # >> .c SOURCES
-SRC = src/ src/
+SRC = src/bubble.c
 
 # >> .h INCLUDES
 INCLUDES = ./includes

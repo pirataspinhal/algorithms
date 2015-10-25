@@ -16,9 +16,13 @@
 #include <stdlib.h>
 #include "heap.h"
 
+/*-------------------------------------------------------
+	HEAP ALLOCATION
+---------------------------------------------------------*/
+
 HEAP* createHeap() {
 
-	HEAP* tree = (HEAP*)malloc(sizeof(TREE));
+	HEAP* tree = (HEAP*)malloc(sizeof(HEAP));
 	
 	if (tree != NULL) {
 		tree->root = NULL;
