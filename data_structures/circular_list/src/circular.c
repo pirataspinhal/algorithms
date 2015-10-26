@@ -84,6 +84,7 @@ boolean insertNode(LIST *data, NODE* node) {
 
 	// Inserts element in the list
 	if(data->header->next == data->header) {
+		
 		// Insertion at the beginning
 		data->header->next = node;
 		data->header->previous = node;
@@ -279,4 +280,5 @@ void destroyList(LIST* data) {
 
 	free(aux);
 	free(data);
+	
 }

@@ -15,6 +15,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*-------------------------------------------------------
+	DEFINITIONS
+---------------------------------------------------------*/
+
 #define left_child 0
 #define right_child 1
 

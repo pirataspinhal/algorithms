@@ -16,6 +16,11 @@
 #include <stdlib.h>
 #include "queue.h"
 
+/*-------------------------------------------------------
+  createQueue: 
+    allocates a queue in heap memory
+-------------------------------------------------------*/
+
 QUEUE *createQueue() {
 
 	QUEUE *queue = (QUEUE*)malloc(sizeof(QUEUE));
@@ -30,9 +35,19 @@ QUEUE *createQueue() {
 
 }
 
+/*-------------------------------------------------------
+  empty: 
+    checks if queue is empty
+-------------------------------------------------------*/
+
 int empty(QUEUE *queue) {
 	return (queue->size == 0);
 }
+
+/*-------------------------------------------------------
+  insert: 
+    inserts new item at the end of the queue
+-------------------------------------------------------*/
 
 int insert(QUEUE *queue, int value) {
 
@@ -51,6 +66,11 @@ int insert(QUEUE *queue, int value) {
 
 }
 
+/*-------------------------------------------------------
+  insert_begin: 
+    inserts new item at the beginning of the queue
+-------------------------------------------------------*/
+
 int insert_begin(QUEUE *queue, int value) {
 	NODE *new = (NODE*)malloc(sizeof(NODE));
 	new->item = value;
@@ -65,6 +85,12 @@ int insert_begin(QUEUE *queue, int value) {
 	}
 }
 
+/*-------------------------------------------------------
+  remove_begin: 
+    removes an item from the beginning of the queue 
+    (FIFO): First in, First Out
+-------------------------------------------------------*/
+
 NODE *remove_begin(QUEUE *queue) {
 
 	if (!empty(queue)) {
@@ -77,6 +103,12 @@ NODE *remove_begin(QUEUE *queue) {
 	}
 }
 
+/*-------------------------------------------------------
+  remove_end: 
+    removes an item from the end of the queue 
+    (LIFO): Last in, First Out
+-------------------------------------------------------*/
+
 NODE *remove_end(QUEUE *queue) {
 	if (!empty(queue)) {
 		NODE *removal = queue->end;
@@ -88,9 +120,19 @@ NODE *remove_end(QUEUE *queue) {
 	}
 }
 
+/*-------------------------------------------------------
+  size: 
+    returns the size of the queue
+-------------------------------------------------------*/
+
 int size(QUEUE *queue) {
 	return (queue->size);
 }
+
+/*-------------------------------------------------------
+  printQueue: 
+    prints every item in the queue
+-------------------------------------------------------*/
 
 void printQueue(QUEUE *queue) {
 

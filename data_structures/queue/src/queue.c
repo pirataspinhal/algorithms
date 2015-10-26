@@ -16,6 +16,11 @@
 #include <stdlib.h>
 #include "queue.h"
 
+/*-------------------------------------------------------
+  createQueue: 
+    allocates a queue in heap memory
+-------------------------------------------------------*/
+
 QUEUE *createQueue() {
 
 	QUEUE *queue = (QUEUE*)malloc(sizeof(QUEUE));
@@ -27,9 +32,19 @@ QUEUE *createQueue() {
 	return queue;
 }
 
+/*-------------------------------------------------------
+  empty: 
+    checks if queue is empty
+-------------------------------------------------------*/
+
 int empty(QUEUE *queue) {
 	return (queue->size == 0); // true->empty
 }
+
+/*-------------------------------------------------------
+  insertItem: 
+    inserts new item at the end of the queue
+-------------------------------------------------------*/
 
 int insertItem(QUEUE *queue, ITEM new) {
 
@@ -49,6 +64,12 @@ int insertItem(QUEUE *queue, ITEM new) {
 	}
 }
 
+/*-------------------------------------------------------
+  removeItem: 
+    removes an item from the beginning of the queue 
+    (FIFO): First in, First Out
+-------------------------------------------------------*/
+
 ITEM removeItem(QUEUE *queue) {
 
 	if(!empty(queue)) {
@@ -62,9 +83,19 @@ ITEM removeItem(QUEUE *queue) {
 	} 
 }
 
+/*-------------------------------------------------------
+  size: 
+    returns the size of the queue
+-------------------------------------------------------*/
+
 int size(QUEUE *queue) {
 	return (queue->size);
 }
+
+/*-------------------------------------------------------
+  printQueue: 
+    prints every item in the queue
+-------------------------------------------------------*/
 
 void printQueue(QUEUE *queue) {
 	int i;

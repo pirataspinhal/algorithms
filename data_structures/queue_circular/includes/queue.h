@@ -15,6 +15,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*-------------------------------------------------------
+  DEFINITIONS
+-------------------------------------------------------*/
+
 typedef struct node NODE;
 typedef struct queue QUEUE;
 
@@ -34,6 +38,10 @@ typedef struct queue {
 	int size;
 
 } QUEUE;
+
+/*-------------------------------------------------------
+  FUNCTIONS
+-------------------------------------------------------*/
 
 QUEUE *createQueue();
 int empty(QUEUE *queue);
