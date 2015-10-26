@@ -8,32 +8,38 @@
 	   \ \_____\ `\____\ \_\ 
 	    \/_____/\/_____/\/_/ 
 	                         
-			QUEUE
+			CIRCULAR QUEUE
 	(c) Felipe Scrochio Custódio
 ---------------------------------------------------------*/
 
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct item {
+typedef struct node NODE;
+typedef struct queue QUEUE;
 
-	int content;
+typedef struct node {
 
-} ITEM;
+	int item;
+	// A circular list is double linked
+	NODE *previous;
+	NODE *next;
+
+} NODE;
 
 typedef struct queue {
-	
-	ITEM *vector;
-	int begin;
-	int end;
+
+	NODE *begin;
+	NODE *end; 
 	int size;
 
 } QUEUE;
 
 QUEUE *createQueue();
 int empty(QUEUE *queue);
-int insertItem(QUEUE *queue, ITEM new);
-ITEM removeItem(QUEUE *queue);
+int insert(QUEUE *queue, int value);
+int insert_begin(QUEUE *queue, int value);
+NODE *remove_begin(QUEUE *queue);
+NODE *remove_end(QUEUE *queue);
 int size(QUEUE *queue);
 void printQueue(QUEUE *queue);
-void destroyQueue(QUEUE *queue);

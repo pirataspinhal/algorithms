@@ -8,7 +8,7 @@
 	   \ \_____\ `\____\ \_\ 
 	    \/_____/\/_____/\/_/ 
 	                         
-			QUEUE
+			CIRCULAR QUEUE
 	(c) Felipe Scrochio Custódio
 ---------------------------------------------------------*/
 
@@ -39,8 +39,8 @@ int main(int argc, char const *argv[]) {
 	MENU operation;
 	QUEUE *data = NULL;
 	data = createQueue();
-	ITEM aux_item;
-	aux_item.content = 0;
+	int aux_item;
+	aux_item = 0;
 	int aux = 0;
 	int value = 0;
 
@@ -54,15 +54,23 @@ int main(int argc, char const *argv[]) {
 			case insert_item:
 				printHeader();
 				printf("\tINSERT NEW ITEM VALUE: ");
-				scanf("%d", &aux_item.content);
+				scanf("%d", &aux_item);
 				getchar();
-				insertItem(data, aux_item);
+				insert(data, aux_item);
 				break;
 			case remove_item:
 				printHeader();
 				printf("\tREMOVING ITEM\n");
-				aux_item = removeItem(data);
-				printf("\tREMOVED %d\n", aux_item.content);
+				printf("\tREMOVE AT END (0) OR BEGINNING? (1) ");
+				int remove_option;
+				scanf("%d", remove_option);
+				getchar();
+				if(remove_option) {
+					aux_item = remove_begin(data);
+				} else {
+					aux_item = remove_end(data);
+				}
+				printf("\tREMOVED %d\n", aux_item);
 				break;
 			case print_size:
 				printHeader();
@@ -77,7 +85,7 @@ int main(int argc, char const *argv[]) {
 				printHeader();
 				printf("\tDESTROYING...\n");
 				exit(0);
-				destroyList(data);
+				//destroyQueue(data);
 				break;
 		}
 

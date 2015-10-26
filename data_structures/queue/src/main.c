@@ -77,7 +77,7 @@ int main(int argc, char const *argv[]) {
 				printHeader();
 				printf("\tDESTROYING...\n");
 				exit(0);
-				destroyList(data);
+				destroyQueue(data);
 				break;
 		}
 

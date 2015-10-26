@@ -8,7 +8,7 @@
 	   \ \_____\ `\____\ \_\ 
 	    \/_____/\/_____/\/_/ 
 	                         
-			QUEUE
+			CIRCULAR QUEUE
 	(c) Felipe Scrochio Custódio
 ---------------------------------------------------------*/
 
@@ -19,47 +19,73 @@
 QUEUE *createQueue() {
 
 	QUEUE *queue = (QUEUE*)malloc(sizeof(QUEUE));
+
 	if (queue != NULL) {
-		queue->end = 0;
-		queue->begin = 0;
+		queue->end = NULL;
+		queue->begin = NULL;
 		queue->size = 0;
 	}
+
 	return queue;
+
 }
 
 int empty(QUEUE *queue) {
-	return (queue->size == 0); // true->empty
+	return (queue->size == 0);
 }
 
-int insertItem(QUEUE *queue, ITEM new) {
+int insert(QUEUE *queue, int value) {
 
-	// Allocate a new ITEM at the queue
-	queue->vector = (ITEM*)realloc(queue->vector, sizeof(ITEM) * queue->size + 1);
-	if(queue->vector != NULL) {
-		// Adds new item at the end of the queue
-		queue->vector[queue->size] = new;
-		// Increases size of queue, changes the end index
-		queue->end = queue->end + 1;
+	NODE *new = (NODE*)malloc(sizeof(NODE));
+	if (new != NULL) {
+		NODE *aux = queue->end;
+		new->item = value;
+		new->previous = aux;
+		new->next = queue->begin;
+		queue->end = new;
 		queue->size++;
-		return 1;
+		return(1);
 	} else {
-		// realloc failed: no memory
-		printf("\tNO MEMORY AVAIABLE\n");
-		return 0;
+		return (0);
+	}
+
+}
+
+int insert_begin(QUEUE *queue, int value) {
+	NODE *new = (NODE*)malloc(sizeof(NODE));
+	new->item = value;
+	if (new != NULL) {
+		new->next = queue->end;
+		new->previous = queue->begin->previous;
+		queue->begin = new;
+		queue->size++;
+		return (1);
+	} else {
+		return (0);
 	}
 }
 
-ITEM removeItem(QUEUE *queue) {
+NODE *remove_begin(QUEUE *queue) {
 
-	if(!empty(queue)) {
-		// Removes the item at beginning of the queue
-		// FIFO - First In, First Out
-		ITEM rm = queue->vector[queue->begin];
-		// Moves the begin index to the next item
-		queue->begin = (queue->begin) + 1;
+	if (!empty(queue)) {
+		NODE *removal = queue->begin;
+		queue->begin = queue->begin->previous;
 		queue->size--;
-		return rm;
-	} 
+		return (removal);
+	} else {
+		return (NULL);
+	}
+}
+
+NODE *remove_end(QUEUE *queue) {
+	if (!empty(queue)) {
+		NODE *removal = queue->end;
+		queue->end = queue->end->previous;
+		queue->end->previous->next = queue->begin;
+		return (removal);
+	} else {
+		return (NULL);
+	}
 }
 
 int size(QUEUE *queue) {
@@ -67,15 +93,17 @@ int size(QUEUE *queue) {
 }
 
 void printQueue(QUEUE *queue) {
-	int i;
-	printf("\n\t");
-	for (i = 0; i < queue->size - 1; i++) {
-		printf("%d -> ", queue->vector[i].content);
-	}
-	printf("%d\n", queue->vector[i].content);
-}
 
-void destroyQueue(QUEUE *queue) {
-	free(queue->vector);
-	free(queue);
+	printf("\n\t");
+	if (!empty(queue)) {
+		NODE *aux = queue->begin;
+		printf("[%d] ", aux->item);
+		aux = aux->next;
+		while(aux != queue->begin) {
+			printf("[%d] ", aux->item);
+			aux = aux->next;
+		}
+	} else {
+		printf("QUEUE IS EMPTY\n");
+	}
 }

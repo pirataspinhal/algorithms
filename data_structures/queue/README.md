@@ -1,7 +1,7 @@
 # Queue
 
 A queue is a data structure to store elements in a FIFO way (First In, First Out).
-Items are always added at the end of the queue and removed at the beginning.
+Items are always added at the end of the queue and removed at the beginning (front).
 
 # Implementation
 
