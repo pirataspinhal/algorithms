@@ -19,7 +19,7 @@
 void mergesort(int *v, int ini, int end) {
 
 	if (end-ini >= 1) {
-		int cen = (int)( (end+ini)/2.0 );
+		int cen = (int)((end+ini)/2.0);
 
 		// divide
 		mergesort(v, ini, cen);
@@ -42,10 +42,10 @@ void swap(int *v, int ini, int cen, int end) {
 	j = cen+1;
 
 	// auxiliar vector allocation
-	int *aux = (int *) malloc(sizeof(int) * (end-ini+1));	
+	int *aux = (int*)malloc(sizeof(int) * (end-ini+1));	
 
 	// swap
-	while ( (i <= cen) && (j <= end) ) {
+	while ((i <= cen) && (j <= end)) {
 		if (v[i] <= v[j]) {
 			aux[k] = v[i];
 			i++;
@@ -53,6 +53,7 @@ void swap(int *v, int ini, int cen, int end) {
 			aux[k] = v[j];
 			j++;
 		}
+
 		k++;
 	}
 
@@ -60,12 +61,14 @@ void swap(int *v, int ini, int cen, int end) {
 	// list 1
 	while (i <= cen) {
 		aux[k] = v[i];
-		i++; k++;
+		i++; 
+		k++;
 	}
 	// list 2
 	while (j <= end) {
 		aux[k] = v[j];
-		j++; k++;
+		j++; 
+		k++;
 	}
 
 	for (i = ini; i <= end; i++) {
@@ -75,4 +78,23 @@ void swap(int *v, int ini, int cen, int end) {
 	free(aux);
 }
 
+int* createRandomVector(int n, int min, int max) {
 
+	int *v = (int*)malloc(sizeof(int) * n);
+	if (v == NULL) return NULL;
+
+	int i;
+	for (i = 0 ; i < n; i++) {
+		v[i] = rand()%(max-min) + min;
+	}
+
+	return v;
+}
+
+void printVector(int *v, int n) {
+	int i;
+	for (i = 0; i < n; i++) {
+		printf("%d ", *(v+i));
+	}
+	printf("\n");
+}

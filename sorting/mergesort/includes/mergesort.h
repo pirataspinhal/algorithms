@@ -16,7 +16,14 @@
 #define __MERGE_H__
 
 /*-------------------------------------------------------
-  SORTING FUNCTIONS
+  AUXILIAR
+---------------------------------------------------------*/
+
+int* createRandomVector(int n, int min, int max);
+void printVector(int *v, int n);
+
+/*-------------------------------------------------------
+  MERGESORT
 ---------------------------------------------------------*/
 
 void mergesort(int *v, int ini, int end);
