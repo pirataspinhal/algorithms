@@ -36,7 +36,7 @@ typedef struct node {
 typedef struct heap {
 
 	NODE *root;
-
+	
 } HEAP;
 
 /*-------------------------------------------------------
@@ -45,7 +45,8 @@ typedef struct heap {
 
 HEAP* createHeap();
 NODE* createRoot(HEAP* tree, int content);
-NODE* insertChild(int child, NODE *node, int content); // int child: left_child or right_child
+NODE* insertChild(int child, NODE *node, int content); 
+// int child: left_child or right_child
 
 /*-------------------------------------------------------
 	HEAP TRAVERSING FUNCTIONS
@@ -62,13 +63,23 @@ void __post_order(NODE *root);
 void post_order(HEAP *tree);
 
 /*-------------------------------------------------------
+	MAX-HEAP
+---------------------------------------------------------*/
+
+void maxHeapify(HEAP *tree, NODE *root); // fix-down
+void buildMaxHeap(HEAP *tree);
+
+/*-------------------------------------------------------
 	AUXILIAR FUNCTIONS
 ---------------------------------------------------------*/
 
+// Print the content of a node
 void printNode(NODE *node);
 
+// Free memory
 void __delete_tree(NODE *root);
 void delete_tree(HEAP **tree);
 
+// Find height recursively
 int __height(NODE *node);
 int height(HEAP *tree);

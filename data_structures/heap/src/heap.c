@@ -112,6 +112,44 @@ void post_order(HEAP *tree) {
 }
 
 /*-------------------------------------------------------
+	MAX-HEAP
+---------------------------------------------------------*/
+
+void maxHeapify(HEAP *tree, NODE *root) {
+	
+	// stores left child
+	NODE *child = root->left;
+
+	// while checks if we're still in the heap
+	while (child != NULL) {
+		
+		// checks for right son
+		// if it's bigger, swaps it instead
+		if ((root->right != NULL) && (root->right->value > child->value)) {
+			child = root->right;
+		}
+
+		NODE *parent = root;
+		if (root->value < child->value) {
+			NODE *aux = child;
+			*(child) = *(root);
+			*(root) = *(aux);
+			child = child->left; // proximo filho esq.
+		} else {
+			break;
+		}
+	}
+}	
+
+
+void buildMaxHeap(HEAP *tree) {
+	NODE* root = tree->root; // first sub-tree
+	while (root != NULL) {
+		maxHeapify(tree, root);
+	}
+}
+
+/*-------------------------------------------------------
 	AUXILIAR FUNCTIONS
 ---------------------------------------------------------*/
 

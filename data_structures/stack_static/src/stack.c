@@ -101,13 +101,15 @@ int push(STACK *stack, ITEM item) {
     of the stack
 -------------------------------------------------------*/
 
- ITEM pop(STACK *stack) {
-   if (!empty(stack)) {
-      ITEM i; 
-      i = stack->value[stack->top];
-      stack->top--; return (i);
-   }
+ITEM pop(STACK *stack) {
+  if (!empty(stack)) {
+    ITEM i; 
+    i = stack->value[stack->top];
+    stack->top--;
+    return (i);
+  } else {
    return (0);
+  }
  }
 
 

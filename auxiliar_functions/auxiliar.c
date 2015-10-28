@@ -8,26 +8,33 @@
 	   \ \_____\ `\____\ \_\ 
 	    \/_____/\/_____/\/_/ 
 	                         
-				HEAP
+		AUXILIAR FUNCTIONS
 	(c) Felipe Scrochio Custódio
 ---------------------------------------------------------*/
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "heap.h"
 
-int main(int argc, char const *argv[]) {
-	
-	HEAP *tree = NULL;
-	NODE *root = NULL;
-	NODE *aux = NULL;
+int* createRandomVector(int n, int min, int max);
+void printVector(int *v, int n);
 
-	printf("\tPRESS ANY BUTTON TO CREATE HEAP ");
-	getchar();
-	tree = createHeap();
-	root = createRoot(tree, 0);
-	printf("\tHEAP CREATED ");
-	getchar();
+int * createRandomVector(int n, int min, int max) {
 
-	return 0;
+	int *v = (int *) malloc(sizeof(int) * n);
+	if (v == NULL) return NULL;
+
+	int i;
+	for (i = 0 ; i < n; i++) {
+		v[i] = rand()%(max-min) + min;
+	}
+
+	return v;
+}
+
+void printVector(int *v, int n) {
+	int i;
+	for (i = 0; i < n ; i++ ) {
+		printf("%d ", *(v+i));
+	}
+	printf("\n");
 }

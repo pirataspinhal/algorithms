@@ -10,9 +10,8 @@ Implementation of the data structures studied in the "Algorithms and Data Struct
 
   	1: Circular List
     2: Stack
-    3: Linear List
-    4: Queue
-    5: Heap
+    3: Queue
+    4: Heap
 
 ### Sorting:
 

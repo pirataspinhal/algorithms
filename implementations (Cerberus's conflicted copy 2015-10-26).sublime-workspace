@@ -108,11 +108,11 @@
 	"buffers":
 	[
 		{
-			"file": "data_structures/stack_static/src/stack.c",
+			"file": "data_structures/queue_circular/includes/queue.h",
 			"settings":
 			{
-				"buffer_size": 2574,
-				"line_ending": "Windows"
+				"buffer_size": 1201,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -267,12 +267,11 @@
 	[
 		"/home/crochi/Dropbox/codes/alg1/implementacoes",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/heap"
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/queue_circular",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/queue_circular/includes"
 	],
 	"file_history":
 	[
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/heap/includes/menu.h",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/queue_circular/includes/queue.h",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/src/queue.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/queue/README.md",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/binary.c",
@@ -542,29 +541,75 @@
 			[
 				{
 					"buffer": 0,
-					"file": "data_structures/stack_static/src/stack.c",
+					"file": "data_structures/queue_circular/includes/queue.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2574,
+						"buffer_size": 1201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								350,
-								350
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								10,
+								25,
+								18,
+								33,
+								9,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
