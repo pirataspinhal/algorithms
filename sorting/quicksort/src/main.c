@@ -8,20 +8,20 @@
      \ \_____\ `\____\ \_\ 
       \/_____/\/_____/\/_/ 
                            
-        	MERGE SORT
+        	QUICKSORT
   (c) Felipe Scrochio Custódio
 ---------------------------------------------------------*/
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "mergesort.h"
+#include "quicksort.h"
 
  
 int main(int argc, char const *argv[]) {
   
   int *v = NULL;
   int n, min, max;
-  printf("\tMERGESORT\n");
+  printf("\tQUICKSORT\n");
   printf("\tVECTOR SIZE: ");
   scanf("%d", &n);
   printf("\tMIN: ");
@@ -32,7 +32,7 @@ int main(int argc, char const *argv[]) {
   v = createRandomVector(n, min, max);
   printVector(v, n);
   printf("\tSORTING\n");
-  mergesort(v, 0, n-1);
+  quicksort(v, 0, n-1);
   printf("\tVECTOR SORTED\n\t");
   printVector(v, n);
 

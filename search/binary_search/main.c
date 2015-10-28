@@ -12,7 +12,29 @@
   (c) Felipe Scrochio Custódio
 ---------------------------------------------------------*/
 
+#include <stdio.h>
+#include <stdlib.h>
+#include "binary.h"
+
 int main(int argc, char const *argv[]) {
-  // code
+  
+  int *v = NULL;
+  int n, min, max, key;
+  printf("\tBINARY SEARCH\n");
+  printf("\tVECTOR SIZE: ");
+  scanf("%d", &n);
+  printf("\tMIN: ");
+  scanf("%d", &min);
+  printf("\tMAX: ");
+  scanf("%d", &max);
+  printf("\tGENERATING VECTOR\n\t");
+  v = createRandomVector(n, min, max);
+
+  printf("\tSEARCH KEY: ");
+  scanf("%d", &key);
+
+  
+
   return 0;
+  
 }

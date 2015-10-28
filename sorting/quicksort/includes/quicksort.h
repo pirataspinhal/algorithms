@@ -8,40 +8,25 @@
      \ \_____\ `\____\ \_\ 
       \/_____/\/_____/\/_/ 
                            
-        BINARY SEARCH
+            QUICKSORT
   (c) Felipe Scrochio Custódio
 ---------------------------------------------------------*/
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "binary.h"
+#ifndef __QUICKSORT_H__
+#define __QUICKSORT_H__
 
 /*-------------------------------------------------------
-  BINARY SEARCH
+  QUICKSORT
 ---------------------------------------------------------*/
 
+void quicksort(int *v, int ini, int end);
+int mediana3(int *v, int *i);
 
 /*-------------------------------------------------------
   AUXILIAR
 ---------------------------------------------------------*/
 
-int* createRandomVector(int n, int min, int max) {
+int * createRandomVector(int n, int min, int max);
+void printVector(int *v, int n);
 
-  int *v = (int*)malloc(sizeof(int) * n);
-  if (v == NULL) return NULL;
-
-  int i;
-  for (i = 0 ; i < n; i++) {
-    v[i] = rand()%(max-min) + min;
-  }
-
-  return v;
-}
-
-void printVector(int *v, int n) {
-  int i;
-  for (i = 0; i < n; i++) {
-    printf("%d ", *(v+i));
-  }
-  printf("\n");
-}
+#endif

@@ -16,6 +16,10 @@
 #include <stdlib.h>
 #include "mergesort.h"
 
+/*-------------------------------------------------------
+  MERGESORT
+---------------------------------------------------------*/
+
 void mergesort(int *v, int ini, int end) {
 
 	if (end-ini >= 1) {
@@ -77,6 +81,10 @@ void swap(int *v, int ini, int cen, int end) {
 
 	free(aux);
 }
+
+/*-------------------------------------------------------
+  AUXILIAR
+---------------------------------------------------------*/
 
 int* createRandomVector(int n, int min, int max) {
 
