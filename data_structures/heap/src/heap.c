@@ -123,7 +123,7 @@ void maxHeapify(HEAP *tree, NODE *root) {
 	// while checks if we're still in the heap
 	while (child != NULL) {
 		
-		// checks for right son
+		// checks for right child
 		// if it's bigger, swaps it instead
 		if ((root->right != NULL) && (root->right->value > child->value)) {
 			child = root->right;
@@ -134,7 +134,7 @@ void maxHeapify(HEAP *tree, NODE *root) {
 			NODE *aux = child;
 			*(child) = *(root);
 			*(root) = *(aux);
-			child = child->left; // proximo filho esq.
+			child = child->left; // next node to the left
 		} else {
 			break;
 		}
