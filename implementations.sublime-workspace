@@ -107,6 +107,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data_structures/circular_list/src/circular.c",
+			"settings":
+			{
+				"buffer_size": 5391,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -116,9 +140,17 @@
 	"command_palette":
 	{
 		"height": 375.0,
-		"last_filter": "des",
+		"last_filter": "themr",
 		"selected_items":
 		[
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"des",
 				"Origami: Destroy Current Pane"
@@ -240,7 +272,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 338.0
+		"width": 450.0
 	},
 	"console":
 	{
@@ -261,17 +293,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/crochi/Dropbox/codes/alg1/implementacoes",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/auxiliar_functions",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/heap",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/heap/src",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/search",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search",
-		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting"
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/algoritmos",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/algoritmos/auxiliar_functions",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/algoritmos/data_structures",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/algoritmos/data_structures/circular_list",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/algoritmos/data_structures/circular_list/src"
 	],
 	"file_history":
 	[
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/algoritmos/todo",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/previous/icc2/aulas/aula24_hashing2/hashing_double.c",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/previous/icc2/aulas/aula24_hashing2/hashing_string.c",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/study/aulas-scc5871-2014/aulas-scc5871/evolutivos/progevolutiva.r",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/previous/icc2/chess/test.in",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/previous/icc2/aulas/aula23_hashing1/hashing.c",
+		"//NORMANDY/Users/PlaceFirst/Dropbox/codes/previous/icc2/p3.c",
+		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/circular_list/src/circular.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/data_structures/heap/src/heap.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/sorting/mergesort/src/mergesort.c",
 		"/home/crochi/Dropbox/codes/alg1/implementacoes/search/binary_search/main.c",
@@ -391,11 +428,7 @@
 		"/home/crochi/Dropbox/Preferences.sublime-settings",
 		"/home/crochi/Dropbox/Codes/icc2/trabalho02/medal2.c",
 		"/home/crochi/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
-		"/home/crochi/Dropbox/Codes/icc2/trabalho02/salsicha.c",
-		"/home/crochi/Dropbox/Codes/icc2/trabalho02/medals.board",
-		"/home/crochi/Dropbox/Codes/icc2/trabalho02/medal.c",
-		"/home/crochi/Dropbox/Codes/alg1/ex02 - Busca Binária/ex02.c",
-		"/home/crochi/Dropbox/Codes/icc2/trabalho02/teste.c"
+		"/home/crochi/Dropbox/Codes/icc2/trabalho02/salsicha.c"
 	],
 	"find":
 	{
@@ -556,8 +589,275 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/MarkdownLight/MarkdownLight.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"default_dir": "\\\\NORMANDY\\Users\\PlaceFirst\\Dropbox\\codes\\algoritmos",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "data_structures/circular_list/src/circular.c",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4951.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

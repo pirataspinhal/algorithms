@@ -156,11 +156,6 @@ void newNode(LIST **data) {
 	new = (NODE*)malloc(sizeof(NODE));
 	new->value = 0;
 
-	printf("\tINSERT NODE INFORMATIONS:\n");
-	printf("\tVALUE: ");
-	scanf("%d", &new->value);
-	getchar();
-
 	new->next = NULL;
 	new->previous = NULL;
 
