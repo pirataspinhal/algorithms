@@ -1,4 +1,4 @@
-Lista de Algoritmos Estudados:
+﻿Lista de Estruturas Estudadas:
 
 > Listas Lineares Estáticas
 > Listas Lineares Dinâmicas Simplesmente Ligadas
