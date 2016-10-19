@@ -1,11 +1,4 @@
-rm *.o
-# Ultra fast compilation
-gcc -c -pg -O3 ./nqueens.c
-gcc -pg -o ./nqueens nqueens.o
-clear
-[H[2J# run and test input file
-./nqueens
-[H[2J Choose max board size: board,calls,time
+board size,calls,time
 0,0,0.000004s
 1,1,0.000008s
 4,26,0.000017s
