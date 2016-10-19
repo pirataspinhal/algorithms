@@ -152,9 +152,8 @@ int main(int argc, char const *argv[]) {
     system("clear");
     int i;
     int n = 0;
-    printf(" Choose max board size: ");
     scanf("%d", &n);
-    printf("board,calls,time\n");
+    printf("board size,calls,time\n");
     for (i = 0; i <= n; i++) {
         queens(i);
     }
