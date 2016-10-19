@@ -4,10 +4,36 @@ The n-queens puzzle is the problem of placing n chess queens on an ｎ ｘ ｎ c
 
 Thus, a solution requires that no two queens share the same **row, column, or diagonal**.
 
-Let's discuss a simple solution to the problem, without implementing any heuristics for optimization, only bruteforce 
-backtracking.
+## Usage
+
+```bash
+make or make compile && ./nqueens < test.dat
+```
+
+Edit ```test.dat``` to the maximum board size you want to test. 
+The program will test every board from size 1 to n.
+
+Sample output with ```test.dat``` containing n = 5
+
+      
+      
+      
+      
+      
+
+
+### Profiling
+
+```shell
+gprof -P -b ./nqueens gmon.out > analysis.txt
+``` 
+
+You can generate a call graph using [ gprof2dot](https://github.com/jrfonseca/gprof2dot) and [GraphViz](http://www.graphviz.org/).
 
 ## Recursion
+
+Let's discuss a simple solution to the problem, without implementing any heuristics for optimization, only bruteforce 
+backtracking.
 
 Have we reached the end of the board (last line)?
 * **YES**: Return *TRUE*
