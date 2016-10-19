@@ -1,0 +1,22 @@
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 4.53% of 0.22 seconds
+
+index % time    self  children    called     name
+                             5134014             isValid [1]
+                0.22    0.00      49/49          queens [2]
+[1]     97.7    0.22    0.00      49+5134014 isValid [1]
+                             5134014             isValid [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     97.7    0.00    0.22                 queens [2]
+                0.22    0.00      49/49          isValid [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]      2.3    0.01    0.00                 printStep [3]
+-----------------------------------------------
+
+Index by function name
+
+   [1] isValid                 [3] printStep
