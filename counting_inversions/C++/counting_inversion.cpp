@@ -16,9 +16,7 @@ int aux[1000];
 void join(int* a, int low, int high) {
 	int mid = (low + high) >> 1;
 	int k = 0, i, j;
-	// debug(low);
-	// debug(high);
-	// debug(mid);
+	
 	for(i = low, j = mid + 1; i < mid + 1 && j < high + 1;) {
 		if (a[i] > a[j]) {
 			aux[k] = a[j];
