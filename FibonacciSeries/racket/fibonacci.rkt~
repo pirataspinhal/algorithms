@@ -1,0 +1,30 @@
+#lang racket
+
+(define (power x n)
+  (if (> n 1)
+      (* x (power x (- n 1)))
+      x))
+  
+
+(define (fibonacci n)
+  (cond [(= 0 n)
+         0]
+        [(or (= 1 n) (= 2 n))
+         1]
+        [else
+         (+ (fibonacci (- n 1)) (fibonacci (- n 2)))]))
+
+(define (fibonacciAt n)
+  (fibonacci (- n 1)))
+
+(define (getFibonacci n)
+  (map fibonacci (build-list n values)))
+
+(define (getnhelp x n)
+  (cond [(= n (fibonacciAt x))
+         x]
+        [else (getnhelp (+ x 1) n)]))
+         
+
+(define (getUpToFibonacci n)
+    (getFibonacci (getnhelp 1 n)))
