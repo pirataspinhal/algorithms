@@ -1,4 +1,4 @@
-public class BinarySearch {
+public class AnotherBinarySearch {
 
     private int binarySearch(int array[], int l, int r, int x) {
         if (r >= l) {
