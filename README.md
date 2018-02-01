@@ -1,5 +1,7 @@
 ![Logo](https://i.imgur.com/bukndFq.png)
 
+<h1 align="center"><strong>アルゴリズム</strong></h1>
+
 Hello, everyone!
 
 Let's contribute to [**Hacktoberfest**](https://hacktoberfest.digitalocean.com/) while refreshing our *data structures and algorithms* knowledge.
