@@ -4,7 +4,7 @@
 
 Hello, everyone!
 
-Let's contribute to [**Hacktoberfest**](https://hacktoberfest.digitalocean.com/) while refreshing our *data structures and algorithms* knowledge.
+Let's contribute to [**Hacktoberfest 2018**](https://hacktoberfest.digitalocean.com/) while refreshing our *data structures and algorithms* knowledge.
 
 Implement your favorite **data structure/algorithm/crazy programming** magic and make a Pull Request.
 
