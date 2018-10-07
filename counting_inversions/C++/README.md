@@ -1,4 +1,4 @@
-###Counting Inversion
+# Counting Inversion
 
 ### Input Format
 * First line consist no. of test cases T.
