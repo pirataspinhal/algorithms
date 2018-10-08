@@ -60,38 +60,6 @@ class Queue {
 		return (tail == array.length - 1);
 	}
 
-	public static void main(String[] args) {
-
-		Scanner ler = new Scanner(System.in);
-		int size = ler.nextInt();
-		// Limpar o buffer
-		ler.nextLine();
-		Queue fila = new Queue(size);
-		String[] op;
-		do {
-			op = ler.nextLine().split(" ");
-			switch (op[0]) {
-			case "remove":
-				fila.remove();
-				break;
-			case "print":
-				System.out.println(fila.print());
-				break;
-			case "element":
-				System.out.println(fila.element());
-				break;
-			case "end":
-				break;
-			case "add":
-				fila.add(op[1]);
-				break;
-			default:
-				break;
-			}
-
-		} while (!op[0].equals("end"));
-	}
-
 	private String element() {
 		if (isEmpty())
 			return EMPTY;
