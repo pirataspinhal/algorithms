@@ -1,0 +1,15 @@
+Fractional_Knapsack(W,V,n,C)
+    for i <-- 0 to n
+      Pi = Vi/Wi
+    Sort_descending (P)
+    Profit <-- 0
+    for i <-- 1 to n
+      if Wi <= C
+        Xi = 1
+        C <-- C - Wi
+        Profit <-- Profit + Vi
+      else
+        Xi = C/Wi
+        C <-- 0
+        Profit <-- Profit + Xi * Vi
+        break
