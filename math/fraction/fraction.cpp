@@ -3,59 +3,50 @@
 #include <string>
 using namespace std;
 
-void printFraction(const struct Fraction, int);
-Fraction getFraction();
-Fraction multiply(struct Fraction, struct Fraction);
-int validateInt(string);
-
 struct Fraction {
 	int num;
 	int den;
 };
 
+int validateInt(string);
+Fraction getFraction(string);
+Fraction multiply(Fraction, Fraction);
+Fraction add(Fraction, Fraction);
+Fraction subtract(Fraction, Fraction);
+Fraction divide(Fraction, Fraction);
+void printFraction(const Fraction);
+
 int main() {
-	Fraction f1, f2, f3;
+	Fraction f1, f2, f3, f4, f5, f6;
 	
-	f1 = getFraction();
-	f2 = getFraction();
+	f1 = getFraction("first");
+	f2 = getFraction("second");
 	f3 = multiply(f1, f2);
+	f4 = add(f1, f2);
+	f5 = subtract(f1, f2);
+	f6 = divide(f1, f2);
 	
-	printFraction(f1, 1);
-	printFraction(f2, 2);
+	cout << "\n\nFraction1 = ";
+	printFraction(f1);
 	
-	cout << "\n\nFraction1 * Fraction2 = Fraction3\n";
-	printFraction(f3, 3);
+	cout << "\n\nFraction2 = ";
+	printFraction(f2);
+	
+	cout << "\n\nFraction1 * Fraction2 = ";
+	printFraction(f3);
+	
+	cout << "\n\nFraction1 + Fraction2 = ";
+	printFraction(f4);
+	
+	cout << "\n\nFraction1 - Fraction2 = ";
+	printFraction(f5);
+	
+	cout << "\n\nFraction1 / Fraction2 = ";
+	printFraction(f6);
+	
 	cout << endl << endl;
 	
 	return 0;
-}
-
-void printFraction(const struct Fraction f, int x) {
-	cout << "\nFraction" << x << " : " ;
-	cout << f.num << "/" << f.den;
-}
-
-Fraction getFraction() {
-	Fraction f;
-	
-	f.num = validateInt("Numerator");
-	f.den = validateInt("Denominator");
-	while (f.den == 0) {
-		cout << "Error Denominator cannot be zero" << endl;
-		f.den = validateInt("Denominator");
-
-	}
-	
-	return f;
-}
-
-Fraction multiply(struct Fraction f1, struct Fraction f2) {
-	Fraction f3;
-	
-	f3.den = f1.den * f2.den;
-	f3.num = f1.num * f2.num;
-	
-	return f3;
 }
 
 int validateInt(string name) {
@@ -91,4 +82,51 @@ int validateInt(string name) {
 	}
 	
 	return num;
+}
+
+Fraction getFraction(string n) {
+	Fraction f;
+	
+	f.num = validateInt(n + " Numerator");
+	f.den = validateInt(n + " Denominator");
+	while (f.den == 0) {
+		cout << "Error Denominator cannot be zero" << endl;
+		f.den = validateInt("Denominator");
+	}
+	
+	return f;
+}
+
+Fraction multiply(struct Fraction f1, struct Fraction f2) {
+	Fraction f3;
+	f3.den = f1.den * f2.den;
+	f3.num = f1.num * f2.num;
+	return f3;
+}
+
+Fraction add(Fraction f1, Fraction f2) {
+	Fraction f3;
+	f3.den = f1.den * f2.den;
+	f1.num = f1.num * f2.den;
+	f2.num = f2.num * f1.den;
+	f3.num = f1.num + f2.num;
+	return f3;
+}
+Fraction subtract(Fraction f1, Fraction f2) {
+	Fraction f3;
+	f3.den = f1.den * f2.den;
+	f1.num = f1.num * f2.den;
+	f2.num = f2.num * f1.den;
+	f3.num = f1.num - f2.num;
+	return f3;
+}
+Fraction divide(Fraction f1, Fraction f2) {
+	Fraction f3;
+	f3.den = f1.den * f2.num;
+	f3.num = f1.num * f2.den;
+	return f3;
+}
+
+void printFraction(const Fraction f) {
+	cout << f.num << "/" << f.den;
 }
