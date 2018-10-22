@@ -12,4 +12,4 @@ Fractional_Knapsack(W,V,n,C)
         Xi = C/Wi
         C <-- 0
         Profit <-- Profit + Xi * Vi
-        break
+
