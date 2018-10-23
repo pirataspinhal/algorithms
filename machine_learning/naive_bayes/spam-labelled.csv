@@ -1,4 +1,4 @@
-X1,X2,X3,X4,X5,X6,X7,X8,X9,X10,X11,X12,SPAM
+X1 (Title in all caps),X2 (The word “Congratulations”),X3 (Attached image),X4 (The word “Open”),X5 (The word “Click”),X6 (The word “Urgent”),X7 (The word “Expire”),X8 (The word “Limited”),X9 (The word “Voucher”),X10 (Inconsistent font styling),X11 (Signature at bottom of email),X12 (Numbers in email),SPAM
 1,1,0,1,0,1,1,0,0,1,1,0,1
 1,1,0,1,1,0,1,1,0,1,1,1,1
 1,1,0,1,0,0,1,1,0,1,1,0,1
