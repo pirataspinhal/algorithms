@@ -14,8 +14,7 @@ Maybe graphs? Sorting algorithms, dynamic programming, greedy algorithms, everyt
 
 **Any programming language is welcome. The more the better!**
 
-If you need help with contributing to a repository, [this is a good place to start](akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/#summary
-)
+If you need help with contributing to a repository, [this is a good place to start](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/#summary)
 
 
 # Credits
