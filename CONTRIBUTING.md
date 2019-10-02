@@ -6,6 +6,10 @@ Any algorithm or data structure, implemented in any programming language.
 
 Just be sure to add the code to the **appropriate directory**. 
 
-If you don't find one, feel free to create it!
+```
++-- category
+|   +-- programming language
+|   |  +-- your code!
+```
 
-A search algorithm goes in the search directory, and so on.
+If you don't find one, feel free to create it!
