@@ -1,10 +1,10 @@
 ![Logo](https://i.imgur.com/bukndFq.png)
 
-<h1 align="center"><strong>アルゴリズム</strong></h1>
-
 Hello, everyone!
 
-Let's contribute to [**Hacktoberfest 2018**](https://hacktoberfest.digitalocean.com/) while refreshing our *data structures and algorithms* knowledge.
+Let's contribute to [**Hacktoberfest 2019**](https://hacktoberfest.digitalocean.com/) while refreshing our *data structures and algorithms* knowledge.
+
+# [Hacktoberfest 2019 issue + Contribution Guidelines](https://github.com/pirataspinhal/algorithms/issues/126)
 
 Implement your favorite **data structure/algorithm/crazy programming** magic and make a Pull Request.
 
