@@ -1,7 +1,7 @@
 print("--Binary Search--")
 
 # Read input as a space separated list of numbers, elements can be of any data type
-array = list(map(float, input("Enter a Sorted Space-Separated list of Numbers: ").split(', ')))
+array = list(map(float, input("Enter a Sorted Space-Separated list of Numbers: ").split(' ')))
 
 # Read the element to be searched
 search_element = float(input("Enter the Search Element: "))
