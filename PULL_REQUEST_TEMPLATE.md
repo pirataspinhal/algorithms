@@ -1,3 +1,13 @@
-# Description
+### Category
 
-Please include a small description of your algorithm/data structure and add reference to the Hacktoberfest issue (#66)
+**EDIT ME** How would you categorize your contribution? (Graph search, greedy algorithm, dynamic programming, machine
+learning algorithm, etc... Feel free to classify your code as you see fit.)
+
+### Description
+
+**EDIT ME** Please include a small description of your algorithm. Any context you provide will help us review your code
+faster and more easily.
+
+---
+
+:beers: Hacktoberfest (#66)

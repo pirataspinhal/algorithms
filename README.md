@@ -16,8 +16,8 @@ As long as it's your own authentic piece of code, it's welcome! :wink:
 
 - Want tips on how to write short and sweet commit messages? [Check out this great article](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
-- Make sure to engage the community in a constructive manner! **[Please read our rules and guidelines before contributing]((https://github.com/pirataspinhal/algorithms/issues/126))**
+- Make sure to engage the community in a constructive manner! [**Please read our rules and guidelines before contributing**]((https://github.com/pirataspinhal/algorithms/issues/126))
 
 # Credits
 
-Retro computer by Tinashe Mugayi from the Noun Project.
+Retro computer by [Tinashe Mugayi](https://thenounproject.com/trellva25/) from the Noun Project.
